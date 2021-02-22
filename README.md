@@ -24,3 +24,4 @@
 1. VGG16 : Accuracy in Trainset = ,Accuracy in Testset =
 2. LeNet : Accuracy in Trainset = ,Accuracy in Testset =
 3. ResNet : Accuracy in Trainset = ,Accuracy in Testset = 
+## Conclusion
