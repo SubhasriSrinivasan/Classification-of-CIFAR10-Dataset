@@ -17,11 +17,15 @@
 9. ship
 10. truck
 ## Models used to train
-* VGG16
-* LeNet
-* ResNet
+* VGG16 : Used the pretrained model (Transfer Learning) with the help of torchvision.models.
+* LeNet : Made a LeNet from Scratch and tried to optimize it.
+* ResNet : Used the pretrained model (Transfer Learning) with the help of torchvision.models.
+* GoogleNet : Used the pretrained model (Transfer Learning) with the help of torchvision.models.
 ## Results
-1. VGG16 : Accuracy in Trainset = ,Accuracy in Testset =
-2. LeNet : Accuracy in Trainset = ,Accuracy in Testset =
-3. ResNet : Accuracy in Trainset = ,Accuracy in Testset = 
+1. VGG16 : Accuracy on Trainset = 45.096 ,Accuracy on Testset = 45.46
+2. LeNet : Accuracy on Trainset = 60.57 ,Accuracy on Testset = 70.97
+3. ResNet : Accuracy on Trainset = 57.182 ,Accuracy on Testset = 56.51
+4. GoogleNet : Accuracy on Trainset = 52.544 ,Accuracy on Testset = 52.56
 ## Conclusion
+These are illustrations of simple models hence the accuracy are a little lower than what can actually be obtained. It can be further 
+tested using different optimizers ,loss functions and even by changing the values of number of epochs, batch size, learning rate etc.  
